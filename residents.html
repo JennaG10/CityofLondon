@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>City of London</title>
+	<link rel="stylesheet" href="css/layout.css" media="screen"/>
+</head>
+
+<body>
+<header>
+<h1>City of London</h1>
+<img src="images/residents.jpg" width="956" height="189" alt="City Of London" alt title="City Of London"/>
+</header>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <ul id="menu">
+    <li><a href="index.html">Home</a></li>
+    <li>
+    <a href="about.html">About London</a>
+    <ul>
+        <li><a href="#">Culture</a></li>
+        <li><a href="#">Heritage</a></li>
+        <li><a href="#">Education</a></li>
+    </ul>
+    
+    <li><a href="#">City Hall</a></li>
+    <li><a href="recreation.html">Recreation</a></li>
+	<li><a href="residents.html">Residents</a></li>
+    <li><a href="contact.html">Contact Us</a></li>	
+	</li>
+</ul>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu Options</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "225px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<div id="wrap">
+
+<h1>Residents...Get involved London!</h1>
+<section>
+    <h2>Enviornment</h2>
+    <p><img src="images/enviornment.jpg" width="200" height="170" alt="Air Quality" alt title="Air quality"/>Like the rest of Southern Ontario, London experiences episodes of poorer air quality, or 'smog'. Ontario’s Ministry of the Environment, Conservation and Parks maintains a network of ambient air quality monitoring stations through the province, including one monitoring station in London. 
+	Some people say that London has the worst air pollution in Ontario.</p> 
+	
+	<p>However, the Ministry’s data shows that London air is really no different than other cities in Southern Ontario. Air pollution is a regional issue.<br><a href="https://www.london.ca/residents/Environment/Air-Quality/Pages/Air-Quality---An-Overview.aspx" target="_blank"><br><em>Air Quality Overview</em></a><br></p>
+	
+    <p>Unlike industrial cities such as Sarnia or Hamilton, London does not have large industrial sources of air emissions. Most of London’s air emissions come from a wide range of small sources – vehicles, lawn mowers, and solvent use in homes and in smaller industries. Electricity use during peak times (e.g., hot, sunny days) is another way that Londoners contribute to air emissions, as peak demand for power is met by gas-fired power plants. Air quality has been getting better in London in recent years. In the late 1990s, the province’s criteria for ozone would be exceeded for about 90 hours every year.  In the last five years, this criteria was exceeded only 1-2 hours every year on average. Newer car models have significantly lower tailpipe emissions. More people are using “low VOC” paints, inks, and other consumer products. Progress is being made on improving air quality.</p>
+
+</section>
+
+<aside>
+	<h2>Emergency Services</h2>
+	<p><img src="images/emergency.jpg" width="200" height="150" alt title="Emergency"/>Emergencies can strike with very little warning, leaving you with no time to make plans about where to go and what to do.Residents have a key role to play in responding to emergencies. Make plans to be able to take care of yourself and the members of your household for up to 72 hours. Being prepared ahead of time will help you and your family cope with an emergency more effectively and enable you to make a faster recovery. Emergencies can be particularly stressful for children, seniors and individuals with disabilities or special needs. They may feel especially vulnerable if they rely on caregivers for assistance, but are separated from them when the incident occurs. If your household includes a person who requires extra help or has special needs, be sure to include provisions for them in your plan <br><a href="https://www.london.ca/residents/Emergency-Information/Emergency-Preparedness/Pages/PreparednessForFamilies.aspx" target="_blank"><br><em>Emergency Preparedness</em></a><br></p>
+	
+	<p>Prepare a Kit
+	Make preparations before an emergency to be self-sufficient for up to 72 hours. This allows emergency workers to focus on people who require urgent assistance. Assemble an emergency kit that contains items to help you cope during the first 72 hours of an emergency. Store the items in backpacks, duffel bags or luggage so you can easily take the kit with you in case you need to evacuate. Keep it in a cool, dry area of your home. Ensure that every household member knows where the emergency kit is located.</p>
+</aside>
+</div>
+
+<footer>
+<div class="box home"><a href="index.html">Home</a></div>
+	<div class="box header"><a href="residents.html">Residents</a></div>
+	<div class="box sidebar"><a href="recreation.html">Recreation</a></div>
+	<div class="box content"><a href="about.html">About London</a></div>
+	<div class="box contact"><a href="contact.html">Contact Us</a></div>
+</footer>
+
+</body>
+</html>

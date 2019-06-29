@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>City of London</title>
+	<link rel="stylesheet" href="css/layout.css" media="screen"/>
+</head>
+
+<body>
+<header>
+<h1>City of London</h1>
+<img src="images/about.jpg" width="956" height="189" alt="City Of London" alt title="City Of London"/>
+</header>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <ul id="menu">
+    <li><a href="index.html">Home</a></li>
+    <li>
+    <a href="about.html">About London</a>
+    <ul>
+        <li><a href="#">Culture</a></li>
+        <li><a href="#">Heritage</a></li>
+        <li><a href="#">Education</a></li>
+    </ul>
+    
+    <li><a href="#">City Hall</a></li>
+    <li><a href="recreation.html">Recreation</a></li>
+	<li><a href="residents.html">Residents</a></li>
+    <li><a href="contact.html">Contact Us</a></li>	
+	</li>
+</ul>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu Options</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "225px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<div id="wrap">
+
+<h1>About London</h1>
+<section>
+    <h2>Education</h2>
+    <p><img src="images/education.jpg" width="200" height="170" alt="Education" alt title="Education"/>Continuing education is an important component of both Western and Fanshawe programs and encompasses business, the arts and a broad array of leisure activities and areas of human interest. As well, private schooling is offered from junior kindergarten through to high school. As well, private schooling is offered from junior kindergarten through to high school.</p>
+	
+    <p>There are also more than 20 registered private vocational schools in the city. To search for registered private career colleges in London, please visit the Service Ontario website.	To search for registered elementary and secondary private schools in London, please visit the Ontario Ministry of Education's website. The Victoria Park Secondary Plan is a City-initiated planning study to develop a secondary plan for the properties surrounding Victoria Park. </p>
+
+</section>
+
+<aside>
+	<h2>Employment</h2>
+	<p><img src="images/Logo.jpg" width="200" height="150" alt title="London"/>We are a large team of dedicated employees doing a wide variety of jobs, delivering over one hundred services; all which have a direct impact on Londoners. Some of our employees are represented by unions and associations, including Canadian Union of Public Employees Local 101, Canadian Union of Public Employees Local 107.</p>
+
+	<p>Service Employees International Union Healthcare, Service Employees International Union, Unifor Local 302 and the London Professional Fire Fighters’ Association.</p>
+	
+	<p>Working together to deliver on Council’s Strategic Plan, our employees take pride in helping to build a better city for all. Being part of our complex organization allows our employees to build a career which develops their skills and grow their future, while doing work that matters.</p>
+</aside>
+</div>
+
+<footer>
+<div class="box home"><a href="index.html">Home</a></div>
+	<div class="box header"><a href="residents.html">Residents</a></div>
+	<div class="box sidebar"><a href="recreation.html">Recreation</a></div>
+	<div class="box content"><a href="about.html">About London</a></div>
+	<div class="box contact"><a href="contact.html">Contact Us</a></div>
+</footer>
+
+</body>
+</html>

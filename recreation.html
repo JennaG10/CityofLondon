@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>City of London</title>
+	<link rel="stylesheet" href="css/layout.css" media="screen"/>
+</head>
+
+<body>
+<header>
+<h1>City of London</h1>
+<img src="images/activities.jpg" width="956" height="189" alt="City Of London" alt title="City Of London"/>
+</header>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <ul id="menu">
+    <li><a href="index.html">Home</a></li>
+    <li>
+    <a href="about.html">About London</a>
+    <ul>
+        <li><a href="#">Culture</a></li>
+        <li><a href="#">Heritage</a></li>
+        <li><a href="#">Education</a></li>
+    </ul>
+    
+    <li><a href="#">City Hall</a></li>
+    <li><a href="recreation.html">Recreation</a></li>
+	<li><a href="residents.html">Residents</a></li>
+    <li><a href="contact.html">Contact Us</a></li>	
+	</li>
+</ul>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu Options</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "225px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<div id="wrap">
+
+<h1>Get involved London!</h1>
+<section>
+    <h2>Parks and Recreation</h2>
+    <p><img src="images/thames-valley-parkway.jpg" width="200" height="170" alt="TVP" alt title="TVP"/>One of London's best recreational and tourism assets is the Thames Valley Parkway; otherwise known as the TVP. 
+	Situated on scenic park lands abutting the Thames River, the Thames Valley Parkway is the City’s primary multi-use pathway system.  The Thames Valley Parkway is an asphalt surface between 2.4 and 4.0 metres in width, is designed for two-way use and is accessible to all ages and abilities. 
+	The current TVP is 40 kilometres in length, offers scenic river crossings and is linked to over 150 kilometres of additional pathways connecting all corners of London. Whether you want to walk, run, ride, roller blade or simply just sit and enjoy the scenery, the TVP has something for you.<br></p>
+	
+    <p>At the present time, there are still several “gaps” in the TVP system requiring people to make use of signed on-road routes where no public parkland route is presently available or feasible. Future projects and upgrades are being planned for the pathway system which will eliminate road crossings and improve neighbourhood connections.  Extensions to the Thames Valley Parkway will occur as lands along the three branches of the Thames River are developed. Whether you want to walk, run, ride, roller blade or simply just sit and enjoy the scenery, the TVP has something for you.</p>
+
+</section>
+
+<aside>
+	<h2>Community Centres</h2>
+	<p><img src="images/community.jpg" width="200" height="150" alt title="Community"/>The City of London offers high quality parks, recreation programs, sport services and facilities that engage citizens of all ages and abilities. We are undertaking a study to ensure that our services continue to respond to the community, now and into the future. The Parks and Recreation Master Plan provides an overall vision and direction for making decisions. The Master Plan is a living document that is based on public input, participation trends, utilization levels, best practices, demographic changes and growth forecasts. It will guide the City’s investment in parks, recreation programs, sport services and facilities over the next ten years and beyond.<br><a href="https://www.london.ca/residents/Recreation/Community-Centres/Pages/default.aspx" target="_blank"><br><em>List of Community Centres</em></a><br></p>
+	
+	<p>Through the update process, we want to know more about how you use London’s parks, recreation programs, sport services and facilities. This is your chance to influence how we deliver recreation programs, design parks and build facilities. Looking for the perfect spot to host your next family reunion or event? Consider booking a picnic site in one of the city's pristine major parks. By booking in advance, you can guarantee your reserved site will be waiting for you when you arrive - and you can focus on hosting an amazing event.</p>
+</aside>
+</div>
+
+<footer>
+<div class="box home"><a href="index.html">Home</a></div>
+	<div class="box header"><a href="residents.html">Residents</a></div>
+	<div class="box sidebar"><a href="recreation.html">Recreation</a></div>
+	<div class="box content"><a href="about.html">About London</a></div>
+	<div class="box contact"><a href="contact.html">Contact Us</a></div>
+</footer>
+
+</body>
+</html>

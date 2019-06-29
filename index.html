@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>City of London</title>
+	<link rel="stylesheet" href="css/layout.css" media="screen"/>
+</head>
+
+<body>
+<header>
+<h1>City of London</h1>
+<img src="images/cityhall.jpg" width="956" height="189" alt="City Of London" alt title="City Of London"/>
+</header>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <ul id="menu">
+    <li><a href="index.html">Home</a></li>
+    <li>
+    <a href="about.html">About London</a>
+    <ul>
+        <li><a href="#">Culture</a></li>
+        <li><a href="#">Heritage</a></li>
+        <li><a href="#">Education</a></li>
+    </ul>
+    
+    <li><a href="#">City Hall</a></li>
+    <li><a href="recreation.html">Recreation</a></li>
+	<li><a href="residents.html">Residents</a></li>
+    <li><a href="contact.html">Contact Us</a></li>	
+	</li>
+</ul>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu Options</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "225px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<div id="wrap">
+
+<h1>Get involved London!</h1>
+<section>
+    <h2>Victoria Park Secondary Plan</h2>
+    <p><img src="images/victoriapark.jpg" width="200" height="150" alt="Victoria park" alt title="Victoria Park"/>Secondary Plans form part of the Official Plan and provide more specific policies than the policies of the existing Official Plan for a particular area. Secondary Plans allow for a comprehensive study of the secondary plan area, considering the other policies in the Official Plan. They allow for a coordinated planning approach for the secondary plan area and the opportunity to provide more detailed policy guidance for the area that goes beyond the general policies of the Official Plan.<br><a href="https://getinvolved.london.ca/VictoriaPark" target="_blank"><br><em>Victoria Park Plan</em></a><br></p>
+	
+    <p>Why are we doing a Secondary Plan for the lands around Victoria Park?
+	The Victoria Park Secondary Plan is a City-initiated planning study to develop a secondary plan for the properties surrounding Victoria Park. The existing vision for the lands surrounding Victoria Park is varied, with potential future development of properties surrounding the park being directed by different policy and guideline documents. The lands surrounding the park have not been considered comprehensively based on their shared relationship with the Park, despite the role of Victoria Park as a prominent City-wide park for the City of London.</p>
+
+</section>
+
+<aside>
+	<h2>Old East Village</h2>
+	<p><img src="images/oldeast.jpg" width="200" height="150" alt title="Old East Village"/>A secondary plan works as a part of the official plan (The London Plan) and contains policies and land use designations that are more specific in nature and apply to a contiguous area. The purpose of the Old East Village Dundas Street Corridor Secondary Plan is to build on the policies of The London Plan and to provide more specific direction for development and projects within the study area. This land use policy, once adopted, will direct future development within the secondary plan area <br><a href="https://getinvolved.london.ca/old-east-village-dundas-street-corridor-secondary-plan" target="_blank"><br><em>Old East Village Plan</em></a><br></p>
+	
+	<p>The secondary plan area overlaps with several projects currently underway:
+
+	London’s future bus rapid transit system
+	An upcoming infrastructure renewal project along Dundas Street between Adelaide Street and Ontario Street
+	The Downtown East-West Cycling Feasibility Study
+	Proposed development
+	The secondary plan study will take into consideration the future outcomes of these projects.
+	City Planning has retained Urban Strategies Inc. to undertake this study and is working closely with Transportation Planning and Design as well as WSP to incorporate the results of the East-West Bikeway Evaluation into the policies of the secondary plan.</p>
+</aside>
+</div>
+
+<footer>
+<div class="box home"><a href="index.html">Home</a></div>
+	<div class="box header"><a href="residents.html">Residents</a></div>
+	<div class="box sidebar"><a href="recreation.html">Recreation</a></div>
+	<div class="box content"><a href="about.html">About London</a></div>
+	<div class="box contact"><a href="contact.html">Contact Us</a></div>
+</footer>
+
+</body>
+</html>
